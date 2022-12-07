@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 150vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(227, 142, 233),
+    rgb(142, 214, 142),
+    rgb(147, 214, 147),
+    rgb(103, 83, 249)
+  );
+}
+.box1 {
+  width: 98%;
+  height: 200px;
+
+  position: relative;
+  top: 70px;
+  left: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.item1 {
+  height: 150px;
+  width: 150px;
+  background-color: rgba(1, 113, 1, 0.767);
+  transition: 0.9s;
+  transition-delay: 0.4s;
+  transition-duration: 1.3s;
+}
+.item1:hover {
+  background-image: radial-gradient(blue, rgb(45, 87, 45), rgb(31, 146, 31));
+  border-radius: 50%;
+}
+
+.item2 {
+  height: 150px;
+  width: 150px;
+  background-color: rgba(1, 113, 1, 0.767);
+  transition: 2s;
+  transition-duration: 1.5s;
+}
+.item2:hover {
+  transform: rotate(360deg);
+  border-radius: 70% 0% 70% 0%;
+}
+.item3 {
+  height: 150px;
+  width: 150px;
+  background-color: rgba(1, 113, 1, 0.767);
+  transition: 2s;
+  transition-duration: 2s;
+}
+.item3:hover {
+  border-radius: 40% 100% 40% 100%;
+}
+.item4 {
+  height: 150px;
+  width: 150px;
+  background-color: rgba(1, 113, 1, 0.767);
+  transition: 2s;
+  transition-duration: 2s;
+}
+.item4:hover {
+  height: 150px;
+  width: 150px;
+  background-color: rgba(1, 113, 1, 0.767);
+  border-radius: 0% 60% 0% 60%;
+}
+
+.para1 {
+  width: 100%;
+  position: relative;
+  top: 70px;
+  transition: 2s;
+  transition-duration: 2s;
+  font-size: 20px;
+}
+.para1:hover {
+  font-size: 30px;
+  font-family: cursive;
+}
+.para2 {
+  width: 100%;
+  position: relative;
+  top: 100px;
+  transition: 2s;
+  transition-duration: 2s;
+  font-size: 25px;
+}
+.para2:hover {
+  font-size: 30px;
+  text-decoration: line-through;
+}
+.img {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 130px;
+  transition: 2s;
+  transition-duration: 2s;
+}
+.img:hover {
+  height: 20%;
+  width: 100%;
+  position: relative;
+  top: 130px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 100%;
+    height: 300vh;
+    
+  }
+  .box1{
+    width: 100%;
+    height: 950px;
+    position: relative;
+    top: 70px;
+    left: 1%;
+    display: block;
+
+}
+.item1{
+    margin: auto;
+    margin-bottom: 70px;
+}
+.item2:hover {
+    transform: rotate(360deg);
+    border-radius: 100% 0% 100% 0%;
+  }
+.item2{
+    margin: auto;
+    margin-bottom: 70px;
+}
+.item3{
+    margin: auto;
+    margin-bottom: 70px;
+}
+.item4{
+    margin: auto;
+    margin-bottom: 20px;
+}
+.item4:hover {
+   
+    border-radius: 0% 100% 0% 100%;
+  }
+.para1 {
+    top: 0px;
+  }
+  .para1:hover {
+    font-size: 40px;
+  }
+  .para2 {
+    top: 50px;
+  }
+  .para2:hover {
+    font-size: 40px;
+  }
+  
+  .img:hover {
+    height: 20%;
+    height: 300px;
+   
+  }
+}
